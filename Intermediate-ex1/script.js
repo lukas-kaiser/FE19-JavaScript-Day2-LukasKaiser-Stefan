@@ -1,6 +1,2 @@
-const str = "hellohello"
-const capitalize = (function(){
-    str.charAt(0).toUpperCase() + str.slice(1); 
-}());
-
-console.log(capitalize);
+const capitalize = string => console.log(string.charAt(0).toUpperCase() + string.slice(1)); 
+capitalize("hello would you look at this capitalized sentence?");
